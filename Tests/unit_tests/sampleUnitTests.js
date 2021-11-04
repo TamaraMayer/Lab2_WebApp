@@ -12,7 +12,7 @@ describe('sampleUnitTests', function () {
 
     it('Should return 200', function (done) {
         http.get('http://localhost:3000', function (res) {
-            assert.equal(200, res.statusCode, 'Result code should be 200.');
+            assert.equal(201, res.statusCode, 'Result code should be 200.');
             done();
         });
     });
